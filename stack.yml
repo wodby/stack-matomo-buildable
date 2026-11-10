@@ -1,6 +1,9 @@
 name: matomo-buildable
 icon: matomo
 title: Matomo (buildable)
+# A variant of the Matomo stack: the catalog suggests them to each other.
+variantOf: matomo
+variant: Buildable
 
 services:
 - name: matomo
