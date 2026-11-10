@@ -4,6 +4,9 @@ title: Matomo (buildable)
 # A variant of the Matomo stack: the catalog suggests them to each other.
 variantOf: matomo
 variant: Buildable
+variantDescription: >-
+  Choose this when you want to customize Matomo: pin the Matomo version and add
+  your own plugins in a Git repository, and Wodby builds Matomo from it.
 
 services:
 - name: matomo
