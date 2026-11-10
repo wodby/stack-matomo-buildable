@@ -1,0 +1,38 @@
+name: matomo-buildable
+icon: matomo
+title: Matomo (buildable)
+
+services:
+- name: matomo
+  title: Matomo
+  service: matomo-buildable
+  required: true
+  volumes:
+  - name: files
+    size: 5
+  links:
+  - name: db
+    service: mariadb
+  - name: files
+    service: files-nfs
+  - name: sendmail
+    service: opensmtpd
+
+- name: mariadb
+  title: MariaDB
+  service: mariadb
+  volumes:
+  - name: data
+    size: 20
+
+- name: files-nfs
+  title: Files NFS storage
+  service: nfs-provisioner
+  volumes:
+  - name: data
+    size: 10
+
+- name: opensmtpd
+  required: false
+  title: OpenSMTPD
+  service: opensmtpd
