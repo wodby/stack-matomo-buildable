@@ -1,5 +1,6 @@
 name: matomo-buildable
 icon: matomo
+docs: https://wodby.com/docs/2.0/stacks/catalog/matomo-buildable/
 title: Matomo (buildable)
 # A variant of the Matomo stack: the catalog suggests them to each other.
 variantOf: matomo
