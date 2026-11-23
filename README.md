@@ -10,15 +10,24 @@ composition for buildable Matomo.
 
 ## Stack contract
 
+- [Matomo (buildable) stack on Wodby](https://wodby.com/stacks/matomo-buildable)
 - [Browse Wodby application stacks](https://wodby.com/stacks)
+- [Matomo (buildable) stack guide](https://wodby.com/docs/2.0/stacks/catalog/matomo-buildable/)
 - [Wodby stack documentation](https://wodby.com/docs/2.0/stacks/)
 - [Stack manifest reference](https://wodby.com/docs/2.0/stacks/template/)
 
+## Start from a boilerplate
+
+Use one of the compatible boilerplates exposed by this stack's services to
+start with Wodby CI build configuration:
+
+- [Vanilla Matomo](https://github.com/wodby/matomo-boilerplate)
+
 ## Service definitions
 
-- [Buildable Matomo service](https://github.com/wodby/service-matomo-buildable)
+- [Matomo (buildable) service](https://github.com/wodby/service-matomo-buildable)
 - [MariaDB service](https://github.com/wodby/service-mariadb)
-- [NFS provisioner service](https://github.com/wodby/service-nfs-provisioner)
+- [Ganesha NFS provisioner service](https://github.com/wodby/service-nfs-provisioner)
 - [OpenSMTPD service](https://github.com/wodby/service-opensmtpd)
 
 ## What's included
